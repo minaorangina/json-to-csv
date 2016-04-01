@@ -1,0 +1,19 @@
+{
+  "name": "json-to-csv",
+  "version": "1.0.0",
+  "description": "converts JSON to CSV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minaorangina/json-to-csv.git"
+  },
+  "author": "minaorangina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minaorangina/json-to-csv/issues"
+  },
+  "homepage": "https://github.com/minaorangina/json-to-csv#readme"
+}
