@@ -33,3 +33,5 @@ function toCSV (data) {
 
     return result;
 }
+
+module.exports = toCSV;
