@@ -2,7 +2,7 @@
 
 function toCSV (data) {
 
-    if (typeof data !== 'string' || typeof data !== 'object') {
+    if (typeof data !== 'string' && typeof data !== 'object') {
 
         throw new Error("Argument must be a string or an object");
     }
