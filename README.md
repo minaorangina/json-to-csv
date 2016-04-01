@@ -11,4 +11,7 @@ Will actually publish to NPM eventually.
 
 For now, clone the repo and extract the file into your project.
 
-The function accepts EITHER an Array of objects OR an JSON string of an Array of objects.
+The function accepts:
+
+* A Javascript object (stringified or not)
+* An array of objects (stringified or not)

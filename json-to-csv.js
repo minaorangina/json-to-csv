@@ -12,6 +12,11 @@ function toCSV (data) {
         data = JSON.parse(data);
     }
 
+    if (!Array.isArray(data)) {
+
+        data = [data];
+    }
+
 	var headers = Object.keys(data[0]);
 	var topRow = headers.join(",") + "\r\n";
 
